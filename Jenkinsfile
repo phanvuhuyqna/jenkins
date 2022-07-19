@@ -25,7 +25,6 @@ pipeline {
       agent { 
           node {
             label 'master'
-            args '-u 0:0'
           }
       }
       environment {
